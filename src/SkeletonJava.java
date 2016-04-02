@@ -76,13 +76,20 @@ public class SkeletonJava {
     /* here starts the main class */
     public static void main(String[] arguments) {
 
-
-    int numar= 0;
+  /*      int numar= 0;
         do {
             numar= readIntGUI("Alege un numar");
             System.out.println(numar);
         }
         while (numar!=0);
+
+      */
+
+        int sum=0;
+        int[] note= new int[4];
+        for (int i=0; i<note.lenght;);
+
+
 
 
     }
