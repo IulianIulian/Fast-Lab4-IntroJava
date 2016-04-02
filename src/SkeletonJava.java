@@ -75,19 +75,20 @@ public class SkeletonJava {
 
     /* here starts the main class */
     public static void main(String[] arguments) {
-        int n1=readIntGUI("Nota 1");
-        int n2=readIntGUI("Nota 2");
 
-        double media;
-        media =(n1+n2)/2;
-        if(media>=5) {
-            printGUI("Admis");
+
+    int numar= 0;
+        do {
+            numar= readIntGUI("Alege un numar");
+            System.out.println(numar);
         }
-        else {
-            System.out.println("Respins");
+        while (numar!=0);
+
+
+    }
 
         }
     //end of main method
-}
-    }
+
+
 // end of class
