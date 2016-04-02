@@ -75,12 +75,19 @@ public class SkeletonJava {
 
     /* here starts the main class */
     public static void main(String[] arguments) {
-        int a = readIntGUI("Introduceti un numar:"); // input using GUI
-        printGUI("Ati introdus:" + a); // output using GUI
+        int n1=readIntGUI("Nota 1");
+        int n2=readIntGUI("Nota 2");
 
-        int b = readIntConsole("Introduceti alt numar:");  // input using console
-        printConsole("Ati introdus:" + b); // output using console
-    }
+        double media;
+        media =(n1+n2)/2;
+        if(media>=5) {
+            printGUI("Admis");
+        }
+        else {
+            System.out.println("Respins");
+
+        }
     //end of main method
 }
+    }
 // end of class
