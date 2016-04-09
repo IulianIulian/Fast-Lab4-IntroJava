@@ -40,6 +40,7 @@ public class SkeletonJava {
     public static void printGUI(double text) {
         JOptionPane.showMessageDialog(null, text);
     }
+
     // CONSOLE
     public static String readStringConsole(String label) {
         System.out.print(label);
@@ -85,16 +86,30 @@ public class SkeletonJava {
 
       */
 
-        int sum=0;
-        int[] note= new int[4];
-        for (int i=0; i<note.lenght;);
+//        int sum=0;
+//        int[] note= new int[4];
+//        for (int i=0; i<note.lenght;);
 
 
+        int calin = readIntConsole("nr1: ");
+        int grigore = readIntConsole("nr2: ");
 
+        int cucubauMax = maximMet(calin, grigore);
+        printConsole("maximul este:" + cucubauMax);
 
     }
 
-        }
+    public static int maximMet(int n1, int n2) {
+
+        int m = n1;
+        if (n1 < n2)
+            m = n2;
+        return m;
+    }
+}
+
+
+
     //end of main method
 
 
